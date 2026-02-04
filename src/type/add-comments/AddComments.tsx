@@ -8,114 +8,114 @@ const ankitToken="4Qw8CbN6g4yXq8Tvz5cam2hQ4+w8bcxtzd6urPhTQXmxNjwhtS1muNIkkQNaUx
 const ramToken="4Qw8CbN6g4yXq8Tvz5cam2hQ4+w8bcxtzd6urPhTQXmxNjwhtS1muNIkkQNaUxbJyIFUP38CPyowEVxrGyj0CxCLHL6oYQCdJxLWPSVBA27GJhiR9so7IubqXLIPO3w43JVPSmxEtGwDDZlsNpKRELw0Eu66ImxjbFzRkr9nvtPZEGWV2wjdz1jq6/HIQO6VpqD1hyhgU+oHQMvzZicyxKihFgMb8xR1Nn9ZzDmHEn2RQC6LAiQ24llb0TtzhkTK72+hfH3AWz+vmDn1REN4tsbU+vYjfkSCVUkLNFRZzXowq/lJpgAfGkA0EYEpysMT9jnUYKx5DTXWtFAXLLQtRbrR862E4JXUIwxQyaPHtHDjSdCU63iw8vL1ylIqpxYN4PLuDRMxM8MAiSlOqg1d4xNWMqGaScMhdGIzUqnPivSrNYBJ/oeY+dVg+JpctyThECq71lXTfa5bDgsyIeTFmm/b6bIKAQNTPoj1GmbsHXiJhqtKISWn5Skxjfkk03oLGF5dktXQcbrNbVlN1DKqA7HxN/n+zv1eqClG3XahGi8="
 const shivaniToken="4Qw8CbN6g4yXq8Tvz5cam2hQ4+w8bcxtzd6urPhTQXmxNjwhtS1muNIkkQNaUxbJ22bhN6/xHt5NLbhIoy82b4D+2OpDyUJ3+4En+aeUOxNHY+TN3JIvsxeM21gktUaSUzWsirGUh5PO7uKgkxGFBtEagsX6TdZQnvMauHdSJq8wZpZ104x5ZXowOd0PcjSB3XNQ3Jvmq7YnZX8A0DBHO+yqfTLZ4oZv6M1jEUNMnqIEj6E3NWjQuyBDj4KKm08L/jaelK8STrRjJskcB129uPd1VLaWYQ3OgEeAAI2POPwPMACM8mPZO8GmUWrjVrG+XMsCWfShTRhF4SLU66KD898BpTeiVvd1h44fGSOQZbFst30J0Pxh7OMhovKdNQi0PlOZJykzGTgcwIzhXKKcY+FP8uiTXNX3iTccI/ONv/mE8Z0WOsD5fhDLWbuWoxy1mrVVYcT1lO6n9b3bZ9efYJ7bjztrwPzsl5Ac1JLZrfUDsF18ka04j1ATMwerXYegIGIA2J3CNyAhsxtLsIxtyTvR37HXLgA6gJdcs0zHMDk="
 const akashToken="4Qw8CbN6g4yXq8Tvz5cam2hQ4+w8bcxtzd6urPhTQXmxNjwhtS1muNIkkQNaUxbJ45Huv6KuDD3xnY15xcZrT9wRWEgKM8Jurt6cqZ1cPn3a7trtOZZcVOCAIfSewxcm0VWXoEAQEB4HCT5+owPr0Bu1XrXpzpRuBRl93LoEMKK0FQSD8bBqZqqhanyhp1lRcjEp/FWz2Lko8FxCRLmrREMMw7/UiRBFt4MzsKtc97sYsb8UgAbaa1sPOTZyAmoXuMooN5sX9EidcCM3NqzjIlyy4jmgSuhtfOHhNGX7/H1miaExbOASECKiIJ3i12MYYQpOFsZ4HnDVqNrsb3t0EYKDCbch5rEOIL6Ot/Ra0zmCxhlXE+hqYzj48SVN+D1XN6D1T93bqTzAetl11nv3cdQzqG4K2l6Rb4YW1K5NUDFwdeevXWjm0rPr58IckvU2WmMrcdHTHrIAu/jV2C6O0suBOam5zafUcseeDhSYAoJGIZqae/lBkQqomeEDZehCmhLvaPEVgdYXQVETsVmzEQ=="
-const ticketId="6937cb639d6fe8130c2e2792"
+const ticketId="6922a77d5f3631ebb9780030"
 const initialTickets =[
-  // ================== FE: Ankit ==================
+  /* ========================= FE – ANKIT ========================= */
   {
     ticketId: ticketId,
-    consumedHours: "06:38",
-    updatedDate: "2025-07-17 18:07:00",
-    workingDay: "2025-07-19T10:55:00Z",
     token: ankitToken,
+    consumedHours: "09:20",
+    updatedDate: "2025-08-12 19:00:0",
+    workingDay: "2025-08-12T04:30:00Z",
     description: `<ul>
-      <li>Built Admin Dashboard layout with responsive sidebar navigation.</li>
-      <li>Added top stats cards displaying Total Orders, Completed Deliveries, Active Customers, Active Vendors, Revenue, etc.</li>
-      <li>Ensured responsive design and visual consistency with design system.</li>
+      <li>Integrated Menu Upload main UI.</li>
+      <li>Implemented Excel upload functionality.</li>
+      <li>Added file validation for supported types and size limits.</li>
     </ul>`,
-    consumedWorkDiscription: `<p>Developed core Admin Dashboard layout including sidebar navigation and top stats cards with responsive design and proper UI feedback.</p>`
+    consumedWorkDiscription: `<p>Developed the Menu Upload UI with Excel upload support, including client-side validation for file type and size.</p>`
   },
   {
     ticketId: ticketId,
-    consumedHours: "06:38",
-    updatedDate: "2025-07-19 16:25:00",
-    workingDay: "2025-07-19T10:55:00Z",
     token: ankitToken,
+    consumedHours: "09:30",
+    updatedDate: "2025-08-13 19:00:0",
+    workingDay: "2025-08-13T04:30:00Z",
     description: `<ul>
-      <li>Integrated real-time updates section using WebSocket/Live API.</li>
-      <li>Built Order Tracking section with Ongoing/Completed tabs.</li>
-      <li>Integrated Dashboard Stats API with loading, empty, and error states.</li>
+      <li>Connected Menu Upload UI with backend Upload API.</li>
+      <li>Implemented upload progress indicator.</li>
+      <li>Handled success and error states.</li>
     </ul>`,
-    consumedWorkDiscription: `<p>Implemented frontend real-time updates, order tracking tabs, and integrated dashboard API data with proper loading/error states.</p>`
+    consumedWorkDiscription: `<p>Integrated frontend menu upload flow with backend APIs and added progress, success, and error handling.</p>`
   },
 
-  // ================== FE: Akash ==================
+  /* ========================= FE – AKASH ========================= */
   {
     ticketId: ticketId,
-    consumedHours: "06:38",
-    updatedDate: "2025-07-17 18:07:00",
-    workingDay: "2025-07-19T10:55:00Z",
     token: akashToken,
+    consumedHours: "09:35",
+    updatedDate: "2025-08-12 19:00:0",
+    workingDay: "2025-08-12T04:30:00Z",
     description: `<ul>
-      <li>Created Charts UI for Orders, Revenue, Courier Performance, and Customer Stats.</li>
-      <li>Added Map View for Active Routes.</li>
-      <li>Implemented Date Filter (Last 7 days, custom range).</li>
+      <li>Implemented Manual Menu Upload functionality.</li>
+      <li>Built form-based menu entry UI.</li>
+      <li>Added field-level validations.</li>
     </ul>`,
-    consumedWorkDiscription: `<p>Developed charts UI and integrated map view for active routes, added date filtering options for dynamic dashboard insights.</p>`
+    consumedWorkDiscription: `<p>Created manual menu upload flow with structured form inputs and validation logic.</p>`
   },
   {
     ticketId: ticketId,
-    consumedHours: "06:38",
-    updatedDate: "2025-07-19 16:25:00",
-    workingDay: "2025-07-19T10:55:00Z",
     token: akashToken,
+    consumedHours: "09:40",
+    updatedDate: "2025-08-13 19:00:0",
+    workingDay: "2025-08-13T04:30:00Z",
     description: `<ul>
-      <li>Integrated Live Tracking API/WebSocket for real-time order movement updates.</li>
-      <li>Handled loading, empty, and error states for all dashboard sections.</li>
+      <li>Added preview of uploaded menu data.</li>
+      <li>Improved UX with inline errors and feedback.</li>
     </ul>`,
-    consumedWorkDiscription: `<p>Connected frontend with live tracking API/WebSocket for real-time order updates and ensured proper handling of various UI states.</p>`
+    consumedWorkDiscription: `<p>Implemented menu data preview after upload and enhanced UX with inline error and feedback handling.</p>`
   },
 
-  // ================== BE: Ram ==================
+  /* ========================= BE – RAM ========================= */
   {
     ticketId: ticketId,
-    consumedHours: "06:38",
-    updatedDate: "2025-07-17 18:07:00",
-    workingDay: "2025-07-19T10:55:00Z",
     token: ramToken,
+    consumedHours: "09:00",
+    updatedDate: "2025-08-12 19:00:0",
+    workingDay: "2025-08-12T04:30:00Z",
     description: `<ul>
-      <li>Created Dashboard Stats API returning totalOrders, completedDeliveries, activeCustomers, activeVendors, totalRevenue, activeCampaigns, pendingTickets.</li>
-      <li>Optimized queries using indexes and caching for performance.</li>
+      <li>Built Upload Menu API in Node.js.</li>
+      <li>Handled Excel file parsing.</li>
+      <li>Validated menu data structure.</li>
     </ul>`,
-    consumedWorkDiscription: `<p>Implemented backend Dashboard Stats API with optimized queries and caching to deliver high-performance metrics.</p>`
+    consumedWorkDiscription: `<p>Implemented backend Upload Menu API with Excel parsing and structural validation of menu data.</p>`
   },
   {
     ticketId: ticketId,
-    consumedHours: "06:38",
-    updatedDate: "2025-07-19 16:25:00",
-    workingDay: "2025-07-19T10:55:00Z",
     token: ramToken,
+    consumedHours: "09:30",
+    updatedDate: "2025-08-13 19:00:0",
+    workingDay: "2025-08-13T04:30:00Z",
     description: `<ul>
-      <li>Built Order Tracking API with Ongoing/Completed orders.</li>
-      <li>Implemented Courier Status API and Vendor Performance API.</li>
-      <li>Developed Chart Data APIs for daily/weekly stats.</li>
+      <li>Inserted parsed menu data into PostgreSQL tables.</li>
+      <li>Implemented transactional inserts with rollback on failure.</li>
     </ul>`,
-    consumedWorkDiscription: `<p>Completed backend APIs for order tracking, courier/vendor performance, and chart data endpoints with efficient database queries.</p>`
+    consumedWorkDiscription: `<p>Handled database insertion of uploaded menu data with transaction support and rollback on errors.</p>`
   },
 
-  // ================== BE: Shivani ==================
+  /* ========================= BE – SHIVANI ========================= */
   {
     ticketId: ticketId,
-    consumedHours: "06:38",
-    updatedDate: "2025-07-17 18:07:00",
-    workingDay: "2025-07-19T10:55:00Z",
     token: shivaniToken,
+    consumedHours: "09:40",
+    updatedDate: "2025-08-12 19:00:0",
+    workingDay: "2025-08-12T04:30:00Z",
     description: `<ul>
-      <li>Built Active Routes / Live Location API integrated with WebSocket/Socket.IO for real-time updates.</li>
-      <li>Secured all dashboard APIs with admin authentication middleware.</li>
+      <li>Implemented image upload handling for menu items (if provided).</li>
+      <li>Added file validation middleware.</li>
     </ul>`,
-    consumedWorkDiscription: `<p>Implemented backend real-time location API and secured all dashboard APIs with proper admin authentication.</p>`
+    consumedWorkDiscription: `<p>Developed image upload handling and validation middleware for menu upload APIs.</p>`
   },
   {
     ticketId: ticketId,
-    consumedHours: "06:38",
-    updatedDate: "2025-07-19 16:25:00",
-    workingDay: "2025-07-19T10:55:00Z",
     token: shivaniToken,
+    consumedHours: "09:50",
+    updatedDate: "2025-08-13 19:00:0",
+    workingDay: "2025-08-13T04:30:00Z",
     description: `<ul>
-      <li>Performed integration and final QA for all dashboard backend APIs.</li>
-      <li>Optimized queries, ensured error handling, and verified real-time updates via WebSocket.</li>
+      <li>Secured Menu Upload API with restaurant authentication.</li>
+      <li>Added centralized error handling and logging.</li>
     </ul>`,
-    consumedWorkDiscription: `<p>Completed backend integration testing, optimized queries, ensured error handling, and verified real-time WebSocket updates for the Admin Dashboard module.</p>`
+    consumedWorkDiscription: `<p>Secured menu upload APIs with auth checks and implemented robust error handling and logging.</p>`
   }
 ]
 
@@ -178,7 +178,7 @@ const AddComments = () => {
                 <h2 className="text-2xl font-semibold text-gray-800 mb-6">
                     Code Review Descriptions
                 </h2>
-
+  <div>Total Tickets <span className="text-xl font-semibold">{tickets.length}</span> total hourse: <span className="text-xl font-semibold">{tickets.length * 7.86}</span>  </div>  
                 <table className="w-full border border-gray-200 rounded-lg overflow-hidden mb-6">
                     <thead className="bg-gray-50">
                         <tr>
@@ -190,7 +190,7 @@ const AddComments = () => {
                             </th>
                         </tr>
                     </thead>
-                    <tbody>
+                                    <tbody>
                         {tickets.map((item) => (
                             <tr key={item.ticketId} className="border-t">
                                 <td className="px-4 py-3 text-gray-700">{item.ticketId}</td>
