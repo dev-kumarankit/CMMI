@@ -6,6 +6,8 @@ import Header from './components/header/header'
 import CodeReviewSubmit from './type/review-code/CodeReviewSubmit'
 import AssignPerson from './type/assign-person/AssignPerson'
 import AddComments from './type/add-comments/AddComments'
+import AddDefects from './type/add-defects/addDefects'
+import TicketStatus from './type/ticket-status/ticketStatus'
 
 function App() {
 
@@ -19,6 +21,9 @@ function App() {
         <Route path="/code-review-submit" element={<CodeReviewSubmit />} />
         <Route path="/assign-person" element={<AssignPerson />} />
          <Route path="/add-comments" element={<AddComments />} />
+         <Route path="/ticket-defects" element={<AddDefects />} />
+
+         <Route path="/ticket-status" element={<TicketStatus />} />
       </Routes>
     </BrowserRouter>
   )

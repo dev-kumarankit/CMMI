@@ -2,17 +2,44 @@ import React, { useState } from "react";
 import axios from "axios";
 
 const initialTasks = [
-  { label: "Requirement Analysis", ticketId: "", hours: "" },
-  { label: "Requirement Analysis Review", ticketId: "", hours: "" },
-  { label: "Design", ticketId: "", hours: "" },
-  { label: "Design Review", ticketId: "", hours: "" },
-  { label: "Coding", ticketId: "", hours: "" },
-  { label: "Coding Review", ticketId: "", hours: "" },
-  { label: "Test Case", ticketId: "", hours: "" },
-  { label: "Test Case Review", ticketId: "", hours: "" },
-  { label: "Testing", ticketId: "", hours: "" }
+  { label: "Requirement Analysis", ticketId: "6957a4445e0304eaf54b00f3", hours: "" },
+  { label: "Requirement Analysis Review", ticketId: "6957a4445e0304eaf54b00f5", hours: "" },
+  { label: "Design", ticketId: "6957a4445e0304eaf54b00f7", hours: "" },
+  { label: "Design Review", ticketId: "6957a4445e0304eaf54b00f9", hours: "" },
+  { label: "Coding", ticketId: "6957a4445e0304eaf54b00fb", hours: "" },
+  { label: "Coding Review", ticketId: "6957a4445e0304eaf54b00fd", hours: "" },
+  { label: "Test Case", ticketId: "6957a4445e0304eaf54b00ff", hours: "" },
+  { label: "Test Case Review", ticketId: "6957a4445e0304eaf54b0101", hours: "" },
+  { label: "Testing", ticketId: "6957a4445e0304eaf54b0103", hours: "" },
+    { label: "Requirement Analysis", ticketId: "6957a48f5e0304eaf54b010b", hours: "" },
+  { label: "Requirement Analysis Review", ticketId: "6957a48f5e0304eaf54b010d", hours: "" },
+  { label: "Design", ticketId: "6957a48f5e0304eaf54b010f", hours: "" },
+  { label: "Design Review", ticketId: "6957a48f5e0304eaf54b0111", hours: "" },
+  { label: "Coding", ticketId: "6957a48f5e0304eaf54b0113", hours: "" },
+  { label: "Coding Review", ticketId: "6957a48f5e0304eaf54b0115", hours: "" },
+  { label: "Test Case", ticketId: "6957a48f5e0304eaf54b0117", hours: "" },
+  { label: "Test Case Review", ticketId: "6957a48f5e0304eaf54b0119", hours: "" },
+  { label: "Testing", ticketId: "6957a48f5e0304eaf54b011b", hours: "" },
+      { label: "Requirement Analysis", ticketId: "6957a4d75e0304eaf54b0124", hours: "" },
+  { label: "Requirement Analysis Review", ticketId: "6957a4d75e0304eaf54b0126", hours: "" },
+  { label: "Design", ticketId: "6957a4d75e0304eaf54b0128", hours: "" },
+  { label: "Design Review", ticketId: "6957a4d75e0304eaf54b012a", hours: "" },
+  { label: "Coding", ticketId: "6957a4d75e0304eaf54b012c", hours: "" },
+  { label: "Coding Review", ticketId: "6957a4d75e0304eaf54b012e", hours: "" },
+  { label: "Test Case", ticketId: "6957a4d75e0304eaf54b0130", hours: "" },
+  { label: "Test Case Review", ticketId: "6957a4d75e0304eaf54b0132", hours: "" },
+  { label: "Testing", ticketId: "6957a4d75e0304eaf54b0134", hours: "" },
+        { label: "Requirement Analysis", ticketId: "6957a5565e0304eaf54b013e", hours: "" },
+  { label: "Requirement Analysis Review", ticketId: "6957a5565e0304eaf54b0140", hours: "" },
+  { label: "Design", ticketId: "6957a5565e0304eaf54b0142", hours: "" },
+  { label: "Design Review", ticketId: "6957a5565e0304eaf54b0144", hours: "" },
+  { label: "Coding", ticketId: "6957a5565e0304eaf54b0146", hours: "" },
+  { label: "Coding Review", ticketId: "6957a5565e0304eaf54b0148", hours: "" },
+  { label: "Test Case", ticketId: "6957a5565e0304eaf54b014a", hours: "" },
+  { label: "Test Case Review", ticketId: "6957a5565e0304eaf54b014c", hours: "" },
+  { label: "Testing", ticketId: "6957a5565e0304eaf54b014e", hours: "" }
 ];
-
+// console.log(data1.map(({id,summary,...rest}) => ({id,summary})))
 const SizeUpdate = () => {
   const [tasks, setTasks] = useState(initialTasks);
   const [loading, setLoading] = useState(false);
@@ -44,7 +71,7 @@ const SizeUpdate = () => {
         ticketId: item.ticketId,
         estimatedHours: item.hours,
         estimatedHoursQA: null,
-        updatedDate: "2025-09-02 10:58:23"
+        updatedDate: "2025-07-01 15:40:23"
       };
       const token="4Qw8CbN6g4yXq8Tvz5cam2hQ4+w8bcxtzd6urPhTQXmxNjwhtS1muNIkkQNaUxbJkjC0WaFWRnA5zVsKB9c/ai5Zjtv3sWqFGNrQvz/OQQnxSpA73750fLzWR1+NZMtqGk15Ck0o6o6+wLw7AfzgBoeu1PnIILJQ0Z1guriH+q4n4taGiAJ1QjQLWDTxUp+VFqrTcf14myI+QH3yNi3DAGGbBUqsRgXqEBJZZIPeR1HNzWngAAz4tvTTOwr1Ceaid35BmlsCmOsXbAj99y617968qsQVMatV46GosProe3MBjcuXh4c1kWeF5zSiKU0pfm1wM75EPgKYB92wD9Z0uPENmTQuj/zkfqCBZMZskytE+BKu8f+DJzcJyb18s0LFSe6ciS/hvtw5rzXK5q3h85SC+5+smn79hGGSlophV5+xY+04gLAlFfIg7Fg0jU10MvTjYPwhH2uwMkOvifa4Nj5ZsVH21Wyr5xjoyhJINccz5n/UV4RrbSpFvZ/1AfMVf2k2aiVwSJFhZO5wkbjFmZ7LAixkdiOmLuGhJua/cKk="
       try {
@@ -89,7 +116,7 @@ const SizeUpdate = () => {
             </thead>
 
             <tbody>
-              {tasks.map((item, index) => (
+              {tasks.map((item, index) => (<>
                 <tr key={item.label} className="border-t">
                   <td className="px-4 py-3 text-gray-700 font-medium">
                     {item.label}
@@ -121,6 +148,7 @@ const SizeUpdate = () => {
                     />
                   </td>
                 </tr>
+               {item.label=="Requirement Analysis"&& <>-----------------------------------</>}</>
               ))}
             </tbody>
           </table>
